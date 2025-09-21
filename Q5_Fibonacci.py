@@ -1,10 +1,11 @@
 ### Fibonacci Function that yields generator
 def fibs(n):
     pos = [1, 1]
-    yield pos
+    yield pos[0]
+    yield pos[1]
     while len(pos)<n:
         pos.append(pos[-1] + pos[-2])
-        yield pos
+        yield pos[len(pos)-1]
 
 
 
