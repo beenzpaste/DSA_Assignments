@@ -1,13 +1,11 @@
 ### Shift Function
 # With direction param 'left' or 'right'
-# without append, pop, etc.
 def reverse_list(lst, low=None, high=None):
     if low is None:
         low = 0
     if high is None:
         high = len(lst) - 1
 
-    # prevent incorrect inputs
     if low < 0 or high >= len(lst) or low > high:
         return lst
 
@@ -29,21 +27,22 @@ def shift (lst, k, direction = 'left'):
         reverse_list(lst, 0, k - 1)
         reverse_list(lst, k, n - 1)
     else:
-        raise ValueError("Direction must be 'left' or 'right'")
+        raise ValueError("direction must be 'left' or 'right'")
     return lst
 
-
-
-
-### Test Cases
 lst1 = [1,2,3,4,5,6,7,8,9]
 shift (lst1, 4, direction='right')
 print(lst1)
-
 lst2 = [1,2,3,4,5,6,7,8,9]
 shift (lst2, 4)
 print(lst2)
+#
+# Right desired output: 45123
+# left desired output: 34512
+lst5 = [11,12,13,14,15,16,17,18,19,20]
+reverse_list(lst5, 4,10)
+print(lst5)
 
-# lst3 = [11,12,13,14,15,16,17,18,19,20]
-# shift (lst3, 4, direction='bye')
-# print(lst3)
+lst4 = [1,2,3,4,5,6,7,8,9]
+reverse_list(lst4,1,4)
+print(lst4)
