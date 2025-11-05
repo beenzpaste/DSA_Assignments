@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90b36ce3-02ff-4db3-a042-4556395d8526" name="Changes" comment="homework 1 ver 3">
+    <list default="true" id="90b36ce3-02ff-4db3-a042-4556395d8526" name="Changes" comment="homework 1 ver 3, fix Q2 to remove list funcs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Q2_ShiftFunction_rev.py" beforeDir="false" afterPath="$PROJECT_DIR$/Q2_ShiftFunction_rev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/to turn in/Q2_ShiftFunction_rev copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/to turn in/Q3_NumberOperations copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/to turn in/Q4_ListSyntax copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/to turn in/Q5_Fibonacci copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/to turn in/Q6_VectorClass copy.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +72,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
         <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
       </set>
     </attachedChunks>
@@ -85,7 +88,8 @@
       <workItem from="1758302122505" duration="5953000" />
       <workItem from="1758506324455" duration="598000" />
       <workItem from="1758671082579" duration="3588000" />
-      <workItem from="1758681264750" duration="2368000" />
+      <workItem from="1758681264750" duration="3018000" />
+      <workItem from="1759520633612" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="homework 1 ver 1">
       <option name="closed" value="true" />
@@ -111,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758684081719</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homework 1 ver 3, fix Q2 to remove list funcs">
+      <option name="closed" value="true" />
+      <created>1758684300847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758684300847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +143,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework 1 ver 1" />
     <MESSAGE value="homework 1 ver 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 1 ver 3" />
+    <MESSAGE value="homework 1 ver 3, fix Q2 to remove list funcs" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 1 ver 3, fix Q2 to remove list funcs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
